@@ -1,0 +1,45 @@
+.card-item {
+    width: 328px;
+    height: max-content;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding:40px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 0 auto;
+        &_title {
+            flex-grow: 0;
+            font-family: Montserrat;
+            font-size: 24px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.33;
+            text-align: center;
+            color: #252b42;
+        }
+        .buttonbtnprimary-color {
+            width: 100%;
+            background-color: #ffa62b;
+            border: none;
+            border-radius: 10px;
+            margin-top: 20px;
+            padding: 20px 10px;
+            color: #fff;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .validate-danger {
+            color: #ff1313;
+            margin-top: 1px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+}

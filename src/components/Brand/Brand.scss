@@ -1,0 +1,55 @@
+
+.header-details {
+    position: relative;
+    padding-left: 10px;
+    .logo-page {
+        position: absolute;
+        transform: rotate(-30deg);
+        left: 34%;
+        top: -15%;
+    }
+    
+    .brand-name {
+        display: flex;
+        justify-content: space-between;
+        width: 118px;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: 0.1px;
+        text-align: left;
+        color: #252b42;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header-details {
+        padding-left: 0px;
+        .logo-page {
+            left: 4%;
+        }
+    }
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .header-details {
+        padding-left: 0px;
+        .logo-page {
+            left: 4%;
+        }
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .header-details {
+        padding-left: 0px;
+        .logo-page {
+            left: 4%;
+        }
+    }
+  }

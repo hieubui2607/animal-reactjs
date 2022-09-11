@@ -1,0 +1,72 @@
+
+    .card {
+        background-color: #fff;
+        width: 20%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        &-img {
+            width: 100%;
+            &__element {
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+        }
+        &-text {
+            padding: 0 5px;
+            &__title {
+                h5 {
+                    margin: 5px;
+                }
+            }
+            &__description {
+                font-size: 14px;
+                width: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+
+  @media only screen and (max-width: 600px) {
+    .card {
+        width: 45%;
+        height: auto;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .card {
+        width: 30%;
+        height: auto;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .card {
+        width: 30%;
+        height: auto;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .card {
+        width: 30%;
+        height: auto
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .card {
+        width: 18%;
+        height: auto;
+    }
+  }

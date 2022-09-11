@@ -1,0 +1,23 @@
+.Slogan {
+    float: left;
+    width: 600px;
+    height: 100%;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    &-title {
+        width: 600px;
+        height: 240px;
+        flex-grow: 0;
+        font-size: 58px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.38;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #252b42;
+    }
+}
