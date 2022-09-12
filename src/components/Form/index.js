@@ -66,11 +66,11 @@ const Form = () => {
         <div className="card-item">
             <h3 className='card-item_title'>Login to home</h3>
                 <GroupInput title="API Key*">
-                    <input className={invalidName === "" ? "inputform-control" : "inputform-control_danger"} type="text" placeholder='Full Name' value={formData.name} onChange={(e) => setFormData({...formData, name: e.target.value})} onBlur={ValidatorName}/>
+                    <input className={invalidName === "" ? "inputform-control" : "inputform-control_danger"} type="text" placeholder='client_id' value={formData.name} onChange={(e) => setFormData({...formData, name: e.target.value})} onBlur={ValidatorName}/>
                     <p className='validate-danger'>{invalidName}</p>
                 </GroupInput>
                 <GroupInput title="Secret Key*">
-                    <input className={invalidEmail === "" ? "inputform-control" : "inputform-control_danger"} type="text" placeholder='example@gmail.com' value={formData.email} onChange={(e) => setFormData({...formData, email: e.target.value})} onBlur={ValidatorEmail}/>
+                    <input className={invalidEmail === "" ? "inputform-control" : "inputform-control_danger"} type="text" placeholder='client_secret' value={formData.email} onChange={(e) => setFormData({...formData, email: e.target.value})} onBlur={ValidatorEmail}/>
                     <p className='validate-danger'>{invalidEmail}</p>
                 </GroupInput>
             <button type='submit' className='buttonbtnprimary-color'>Log In</button>

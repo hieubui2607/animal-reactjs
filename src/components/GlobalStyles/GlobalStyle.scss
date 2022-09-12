@@ -19,6 +19,10 @@ body {
 }
 
 
+
+.mt-1 {
+    margin-top: 10px;
+}
 .pl-1 {
     padding-left: 10px;
 }
@@ -159,6 +163,25 @@ body {
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
+}
+.btn-pagination {
+    float: left;
+    padding: 4px 20px;
+    border-radius: 37px;
+    background-color: #fff;
+    border: 2px solid #ffaa55;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #ffaa55;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .ani-list {

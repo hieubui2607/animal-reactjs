@@ -1,9 +1,10 @@
 import axiosClient from "./axiosClient";
 
 const dataApi = {
-    getData(config) {
-        const url = "/v2/animals";
-        return axiosClient.get(url, config)
+    getData(config, param) {
+        console.log(param.pageCurrent)
+        const url = `/v2/animals?page=${param.pageCurrent}`;
+        return axiosClient.get(url, config, param)
     }
 }
 

@@ -1,6 +1,7 @@
 import "./Card.scss"
 
-const Card = () => {
+const Card = ({name, desrcription, specie}) => {
+    console.log(specie)
     return (
         <div className="card">
             <div className="card-img">
@@ -8,9 +9,9 @@ const Card = () => {
             </div>
             <div className="card-text">
                 <div className="card-text__title">
-                    <h5>Chó Alaska</h5>
+                    <h5>{name + " " + specie.toLowerCase()}</h5>
                 </div>
-                <p className="card-text__description">Spot is an amazing dog </p>
+                <p className="card-text__description">{desrcription}</p>
             </div>
         </div>
     )
